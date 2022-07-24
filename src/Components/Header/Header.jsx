@@ -7,7 +7,7 @@ export default class Header extends Component {
       <>
       <div className={`${style.header} overflow-hidden`}>
         <div className={`container d-flex align-items-center flex-column ${style.headerContainer}`}>
-          <img className={`${style.avatar} mb-3`} src="./images/avataaars.svg" alt="no picture here" />
+          <img className={`${style.avatar} mb-3`} src="./First-React-App/tree/gh-pages/images/avataaars.svg" alt="no picture here" />
           <h1 className={`${style.heading} text-uppercase text-white`}>start bootstrap</h1>
           <div className={`${style.headerDevider}`}>
             <div className={`${style.line} rounded`}></div>
