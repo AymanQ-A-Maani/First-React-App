@@ -14,7 +14,7 @@ export default class App extends Component {
       <>
         <Navbar />
         <Routes>
-          <Route path="/" element={<Header />} />
+          <Route path="/First-React-App" element={<Header />} />
           <Route path="header" element={<Header />} />
           <Route path="portfolio" element={<Portfolio />} />
           <Route path="about" element={<About />} />
