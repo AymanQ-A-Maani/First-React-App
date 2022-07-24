@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/First-React-App/static/css/main.ffb9b98e.css",
-    "main.js": "/First-React-App/static/js/main.d456ecba.js",
+    "main.js": "/First-React-App/static/js/main.679fa8fa.js",
     "static/media/fa-solid-900.ttf": "/First-React-App/static/media/fa-solid-900.e615bbcb258550973c16.ttf",
     "static/media/Montserrat-Bold.ttf": "/First-React-App/static/media/Montserrat-Bold.2c155811b35513d5beaa.ttf",
     "static/media/Montserrat-Regular.ttf": "/First-React-App/static/media/Montserrat-Regular.ceb11275ab638627a643.ttf",
@@ -14,10 +14,10 @@
     "static/media/fa-v4compatibility.woff2": "/First-React-App/static/media/fa-v4compatibility.afac89562a5301459069.woff2",
     "index.html": "/First-React-App/index.html",
     "main.ffb9b98e.css.map": "/First-React-App/static/css/main.ffb9b98e.css.map",
-    "main.d456ecba.js.map": "/First-React-App/static/js/main.d456ecba.js.map"
+    "main.679fa8fa.js.map": "/First-React-App/static/js/main.679fa8fa.js.map"
   },
   "entrypoints": [
     "static/css/main.ffb9b98e.css",
-    "static/js/main.d456ecba.js"
+    "static/js/main.679fa8fa.js"
   ]
 }
