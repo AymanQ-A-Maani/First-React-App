@@ -33,19 +33,19 @@ render() {
           <div className="container">
             <div className="row">
               <div className="col-6">
-                <Link className={`text-decoration-none text text-uppercase text-white fw-bold ${style.navbarBrand}`} onClick={this.removeGreenBackground} to="header">start bootsrap</Link>
+                <Link className={`text-decoration-none text text-uppercase text-white fw-bold ${style.navbarBrand}`} onClick={this.removeGreenBackground} to="First-React-App/header">start bootsrap</Link>
               </div>
               <div className="col-6">
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                   <ul className="navbar-nav ms-auto mb-2 mb-lg-0 list-unstyled">
                     <li className={`nav-item ${style.navItem} rounded-3`} onClick = {()=> this.addGreenBackground(0)} >
-                      <Link className={`nav-link active text-white text-uppercase fw-bold ${style.navLink}`} aria-current="page" to="portfolio">portfolio</Link>
+                      <Link className={`nav-link active text-white text-uppercase fw-bold ${style.navLink}`} aria-current="page" to="First-React-App/portfolio">portfolio</Link>
                     </li>
                     <li className={`nav-item ${style.navItem} rounded-3 ms-2`} onClick = {()=> this.addGreenBackground(1)} >
-                      <Link className={`nav-link active text-white text-uppercase fw-bold ${style.navLink}`} aria-current="page" to="about">about</Link>
+                      <Link className={`nav-link active text-white text-uppercase fw-bold ${style.navLink}`} aria-current="page" to="First-React-App/about">about</Link>
                     </li>
                     <li className={`nav-item ${style.navItem} rounded-3 ms-2`} onClick = {()=> this.addGreenBackground(2)} >
-                      <Link className={`nav-link active text-white text-uppercase fw-bold ${style.navLink}`} aria-current="page" to="contact">contact</Link>
+                      <Link className={`nav-link active text-white text-uppercase fw-bold ${style.navLink}`} aria-current="page" to="First-React-App/contact">contact</Link>
                     </li>
                   </ul>
                 </div>

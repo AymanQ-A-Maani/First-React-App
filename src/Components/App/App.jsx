@@ -14,11 +14,11 @@ export default class App extends Component {
       <>
         <Navbar />
         <Routes>
-          <Route path="/First-React-App" element={<Header />} />
-          <Route path="header" element={<Header />} />
-          <Route path="portfolio" element={<Portfolio />} />
-          <Route path="about" element={<About />} />
-          <Route path="contact" element={<Contact />} />
+          <Route path="/First-React-App/" element={<Header />} />
+          <Route path="First-React-App/header" element={<Header />} />
+          <Route path="First-React-App/portfolio" element={<Portfolio />} />
+          <Route path="First-React-App/about" element={<About />} />
+          <Route path="First-React-App/contact" element={<Contact />} />
           <Route path='*' element={<Notfound />} />
         </Routes>
         <Footer />
