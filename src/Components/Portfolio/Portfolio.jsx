@@ -13,37 +13,37 @@ export default class Portfolio extends Component {
                 </div>
                 <div className="row g-0">
                     <div className={`col-4 ${style.portfolioCard} position-relative`}>
-                        <img src="./First-React-App/images/cabin.png" className={`${style.portfolioImage} rounded-3`} alt="nothing to show here" />
+                        <img src="./images/cabin.png" className={`${style.portfolioImage} rounded-3`} alt="nothing to show here" />
                         <div className={`${style.overlay} position-absolute top-0 end-0 start-0 bottom-0 d-flex justify-content-center align-items-center rounded-3`}>
                         <i className={`fa-solid fa-plus ${style.plusSign} text-white`}></i>
                         </div>
                     </div>
                     <div className={`col-4 ${style.portfolioCard} position-relative`}>
-                        <img src="./First-React-App/images/cake.png" alt="nothing to show here" className={`${style.portfolioImage} rounded-3`} />
+                        <img src="./images/cake.png" alt="nothing to show here" className={`${style.portfolioImage} rounded-3`} />
                         <div className={`${style.overlay} position-absolute top-0 end-0 start-0 bottom-0 d-flex justify-content-center align-items-center rounded-3`}>
                             <i className={`fa-solid fa-plus ${style.plusSign} text-white`}></i>
                         </div>
                     </div>  
                     <div className={`col-4 ${style.portfolioCard} position-relative`}>
-                        <img src="./First-React-App/images/circus.png" alt="nothing to show here" className={`${style.portfolioImage} rounded-3`} />
+                        <img src="./images/circus.png" alt="nothing to show here" className={`${style.portfolioImage} rounded-3`} />
                         <div className={`${style.overlay} position-absolute top-0 end-0 start-0 bottom-0 d-flex justify-content-center align-items-center rounded-3`}>
                             <i className={`fa-solid fa-plus ${style.plusSign} text-white`}></i>
                         </div>
                     </div>  
                     <div className={`col-4 ${style.portfolioCard} position-relative`}>
-                        <img src="./First-React-App/images/game.png" alt="nothing to show here" className={`${style.portfolioImage} rounded-3`} />
+                        <img src="./images/game.png" alt="nothing to show here" className={`${style.portfolioImage} rounded-3`} />
                         <div className={`${style.overlay} position-absolute top-0 end-0 start-0 bottom-0 d-flex justify-content-center align-items-center rounded-3`}>
                             <i className={`fa-solid fa-plus ${style.plusSign} text-white`}></i>
                         </div>
                     </div>  
                     <div className={`col-4 ${style.portfolioCard} position-relative`}>
-                        <img src="./First-React-App/images/safe.png" alt="nothing to show here" className={`${style.portfolioImage} rounded-3`} />
+                        <img src="./images/safe.png" alt="nothing to show here" className={`${style.portfolioImage} rounded-3`} />
                         <div className={`${style.overlay} position-absolute top-0 end-0 start-0 bottom-0 d-flex justify-content-center align-items-center rounded-3`}>
                             <i className={`fa-solid fa-plus ${style.plusSign} text-white`}></i>
                         </div>
                         </div>  
                     <div className={`col-4 ${style.portfolioCard} position-relative`}>
-                        <img src="./First-React-App/images/submarine.png" alt="nothing to show here" className={`${style.portfolioImage} rounded-3`} />
+                        <img src="./images/submarine.png" alt="nothing to show here" className={`${style.portfolioImage} rounded-3`} />
                         <div className={`${style.overlay} position-absolute top-0 end-0 start-0 bottom-0 d-flex justify-content-center align-items-center rounded-3`}>
                             <i className={`fa-solid fa-plus ${style.plusSign} text-white`}></i>
                         </div>
