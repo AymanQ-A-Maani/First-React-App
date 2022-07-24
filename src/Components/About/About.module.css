@@ -1,0 +1,48 @@
+.headerDevider{
+    margin-top: 100px;
+}
+
+.aboutBackground{
+    background-color: rgb(26, 188, 156);
+    height: 100vh;
+}
+
+.AboutHeading{
+    font-family: Montserrat-bold;
+    font-size: 3rem;
+    width: 100%;
+    color: white;
+}
+.line{
+    height: 5px !important;
+    width: 112px !important;
+    background-color: white !important;
+}
+.star{
+    font-size: 32px;
+    margin: 0 10px 24px 10px;
+    transform: translateY(7px);
+    color: white;
+}
+
+
+.aboutParas{
+    font-size: 1.80rem;
+    transform: translateX(21px);
+} 
+
+.downloadButton{
+    border: 1px solid white;
+    background: transparent;
+    width: fit-content;
+    font-size: 1.50rem;
+}
+
+.downloadButton:hover{
+    background-color: white !important;
+    color: black !important;
+}
+
+.downloadButton:hover .downloadSign{
+    color: black !important;
+}
