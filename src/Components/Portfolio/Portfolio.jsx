@@ -11,40 +11,40 @@ export default class Portfolio extends Component {
                     <i className={`fa-solid fa-star ${style.star}`}></i>
                     <div className={`${style.line} rounded`}></div>
                 </div>
-                <div className="row g-2 mb-5">
-                    <div className={`col-sm-4 ${style.portfolioCard} position-relative`}>
+                <div className="row mb-5">
+                    <div className={`col-sm-4 col-lg-4 ${style.portfolioCard} position-relative`}>
                         <img src="./images/cabin.png" className={`${style.portfolioImage} rounded-3`} alt="nothing to show here" />
-                        <div className={`${style.overlay} position-absolute top-0 end-0 start-0 bottom-0 d-flex justify-content-center align-items-center rounded-3`}>
+                        <div className={`${style.overlay} ${style.addmargin} position-absolute d-flex justify-content-center align-items-center rounded-3`}>
                         <i className={`fa-solid fa-plus ${style.plusSign} text-white`}></i>
                         </div>
                     </div>
-                    <div className={`col-sm-4 ${style.portfolioCard} position-relative`}>
+                    <div className={`col-sm-4 col-lg-4 ${style.portfolioCard} position-relative`}>
                         <img src="./images/cake.png" alt="nothing to show here" className={`${style.portfolioImage} rounded-3`} />
-                        <div className={`${style.overlay} position-absolute top-0 end-0 start-0 bottom-0 d-flex justify-content-center align-items-center rounded-3`}>
+                        <div className={`${style.overlay} position-absolute  d-flex justify-content-center align-items-center rounded-3`}>
                             <i className={`fa-solid fa-plus ${style.plusSign} text-white`}></i>
                         </div>
                     </div>  
-                    <div className={`col-sm-4 ${style.portfolioCard} position-relative`}>
+                    <div className={`col-sm-4 col-lg-4 ${style.portfolioCard} position-relative`}>
                         <img src="./images/circus.png" alt="nothing to show here" className={`${style.portfolioImage} rounded-3`} />
-                        <div className={`${style.overlay} position-absolute top-0 end-0 start-0 bottom-0 d-flex justify-content-center align-items-center rounded-3`}>
+                        <div className={`${style.overlay} position-absolute  d-flex justify-content-center align-items-center rounded-3`}>
                             <i className={`fa-solid fa-plus ${style.plusSign} text-white`}></i>
                         </div>
                     </div>  
-                    <div className={`col-sm-4 ${style.portfolioCard} position-relative`}>
+                    <div className={`col-sm-4 col-lg-4 ${style.portfolioCard} position-relative`}>
                         <img src="./images/game.png" alt="nothing to show here" className={`${style.portfolioImage} rounded-3`} />
-                        <div className={`${style.overlay} position-absolute top-0 end-0 start-0 bottom-0 d-flex justify-content-center align-items-center rounded-3`}>
+                        <div className={`${style.overlay} position-absolute  d-flex justify-content-center align-items-center rounded-3`}>
                             <i className={`fa-solid fa-plus ${style.plusSign} text-white`}></i>
                         </div>
                     </div>  
-                    <div className={`col-sm-4 ${style.portfolioCard} position-relative`}>
+                    <div className={`col-sm-4 col-lg-4 ${style.portfolioCard} position-relative`}>
                         <img src="./images/safe.png" alt="nothing to show here" className={`${style.portfolioImage} rounded-3`} />
-                        <div className={`${style.overlay} position-absolute top-0 end-0 start-0 bottom-0 d-flex justify-content-center align-items-center rounded-3`}>
+                        <div className={`${style.overlay} position-absolute  d-flex justify-content-center align-items-center rounded-3`}>
                             <i className={`fa-solid fa-plus ${style.plusSign} text-white`}></i>
                         </div>
                         </div>  
-                    <div className={`col-sm-4 ${style.portfolioCard} position-relative`}>
+                    <div className={`col-sm-4 col-lg-4 ${style.portfolioCard} position-relative`}>
                         <img src="./images/submarine.png" alt="nothing to show here" className={`${style.portfolioImage} rounded-3`} />
-                        <div className={`${style.overlay} position-absolute top-0 end-0 start-0 bottom-0 d-flex justify-content-center align-items-center rounded-3`}>
+                        <div className={`${style.overlay} position-absolute  d-flex justify-content-center align-items-center rounded-3`}>
                             <i className={`fa-solid fa-plus ${style.plusSign} text-white`}></i>
                         </div>
                     </div>  

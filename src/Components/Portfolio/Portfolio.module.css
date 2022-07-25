@@ -19,6 +19,7 @@
 }
 
 
+
 .portfolioImage{
     width: 100%;
     height: 100%;
@@ -28,7 +29,16 @@
     background-color: rgb(26, 188, 156);
     opacity: 0;
     transition: all 0.5s ease-in-out;
+    top: 12px;
+    right: 12px;
+    bottom: 12px;
+    left: 12px;
 }
+
+.portfolioCard{
+    padding: 12px 12px !important;
+}
+
 
 .portfolioCard:hover .overlay{
     opacity: 0.8;
